@@ -1,3 +1,5 @@
+package apitestswithoutmodels;
+
 import com.github.javafaker.Faker;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
