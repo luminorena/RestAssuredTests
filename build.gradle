@@ -36,12 +36,12 @@ def slf4jVersion = '2.0.5',
 dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:5.3.0",
-            'io.qameta.allure:allure-rest-assured:2.20.1',
+            'io.qameta.allure:allure-rest-assured:2.21.0',
             'org.junit.jupiter:junit-jupiter:5.9.2',
             "org.slf4j:slf4j-simple:$slf4jVersion",
             'com.github.javafaker:javafaker:1.0.2',
             "org.assertj:assertj-core:$assertJVersion",
-            'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+            'com.fasterxml.jackson.core:jackson-databind:2.14.2'
 
     )
 }
