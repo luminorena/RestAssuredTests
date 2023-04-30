@@ -1,12 +1,13 @@
 package api_reqres.in.models;
 
+import api_reqres.in.models.User;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class CreateUpdateUserResponseModel {
-   private String name;
-   private String job;
-
+public class UserData {
+    @JsonProperty("data")
+    private User user;
 }

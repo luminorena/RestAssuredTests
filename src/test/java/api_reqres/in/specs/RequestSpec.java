@@ -1,5 +1,6 @@
 package api_reqres.in.specs;
 
+
 import io.restassured.specification.RequestSpecification;
 
 import static api_reqres.in.helpers.CustomApiListener.withCustomTemplates;
@@ -41,5 +42,7 @@ public class RequestSpec {
             .basePath("/api/register")
             .log().all()
             .contentType(JSON);
+
+
 
 }

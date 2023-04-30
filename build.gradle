@@ -29,6 +29,9 @@ java {
     }
 }
 
+/*sourceCompatibility = 1.8
+targetCompatibility = 1.8*/
+
 def slf4jVersion = '2.0.5',
     assertJVersion = '3.24.2'
 
